@@ -13,13 +13,14 @@
 [![Issues](https://img.shields.io/github/issues/rakibuilds/internet-tricks-cookbook?style=for-the-badge&logo=githubactions&logoColor=white&color=0ea5e9)](https://github.com/rakibuilds/internet-tricks-cookbook/issues)
 [![License](https://img.shields.io/github/license/rakibuilds/internet-tricks-cookbook?style=for-the-badge&color=22c55e)](LICENSE)
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=git&logoColor=white)
-![Last Commit](https://img.shields.io/github/last-commit/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=github)
-![Repo Size](https://img.shields.io/github/repo-size/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=files)
-![Contributors](https://img.shields.io/github/contributors/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=githubsponsors&logoColor=white)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=git&logoColor=white)](https://github.com/rakibuilds/internet-tricks-cookbook/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=github)](https://github.com/rakibuilds/internet-tricks-cookbook/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=files)](https://github.com/rakibuilds/internet-tricks-cookbook)
+[![Contributors](https://img.shields.io/github/contributors/rakibuilds/internet-tricks-cookbook?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/rakibuilds/internet-tricks-cookbook/graphs/contributors)
 ![Maintained](https://img.shields.io/badge/maintained-yes-blue?style=flat-square)
 
 [Categories](#categories) |
+[Recipes](#recipes) |
 [Quick Start](#quick-start) |
 [Structure](#repository-structure) |
 [Rules](#rules) |
@@ -48,32 +49,38 @@ It is built for two audiences:
 
 | | Category | What it covers |
 |:-:|---|---|
-| ![](https://img.shields.io/badge/-%20-2563eb?style=flat-square&logo=googlechrome&logoColor=white) | **Browser and Search** | Search operators, hidden browser flags, reader settings, performance tweaks |
-| ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | **Privacy and Accounts** | Email aliasing, tracking-parameter removal, permission and cookie hygiene |
-| ![](https://img.shields.io/badge/-%20-ef4444?style=flat-square&logo=youtube&logoColor=white) | **Social and Content** | Clean link sharing, feed resets, notification and autoplay controls |
-| ![](https://img.shields.io/badge/-%20-22c55e?style=flat-square&logo=cashapp&logoColor=white) | **Everyday Savings** | Flight and hotel price comparison, regional pricing checks |
-| ![](https://img.shields.io/badge/-%20-f59e0b?style=flat-square&logo=python&logoColor=white) | **Automation and Scraping** | Text extraction, RSS feed generation, page monitoring |
-| ![](https://img.shields.io/badge/-%20-0ea5e9?style=flat-square&logo=googlechrome&logoColor=white) | **DevTools** | Console snippets, network throttling profiles, UI debugging |
-| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=gnubash&logoColor=white) | **API and Webhooks** | Uptime checks, alerts, dynamic DNS updaters, integration recipes |
+| ![](https://img.shields.io/badge/-%20-2563eb?style=flat-square&logo=googlechrome&logoColor=white) | [**Browser and Search**](browser-and-search) | Search operators, hidden browser flags, reader settings, performance tweaks |
+| ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | [**Privacy and Accounts**](privacy-and-accounts) | Email aliasing, tracking-parameter removal, permission and cookie hygiene |
+| ![](https://img.shields.io/badge/-%20-ef4444?style=flat-square&logo=youtube&logoColor=white) | [**Social and Content**](social-and-content) | Clean link sharing, feed resets, notification and autoplay controls |
+| ![](https://img.shields.io/badge/-%20-22c55e?style=flat-square&logo=cashapp&logoColor=white) | [**Everyday Savings**](everyday-savings) | Flight and hotel price comparison, regional pricing checks |
+| ![](https://img.shields.io/badge/-%20-f59e0b?style=flat-square&logo=python&logoColor=white) | [**Automation and Scraping**](automation) | Text extraction, RSS feed generation, page monitoring |
+| ![](https://img.shields.io/badge/-%20-0ea5e9?style=flat-square&logo=googlechrome&logoColor=white) | [**DevTools**](devtools) | Console snippets, network throttling profiles, UI debugging |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=gnubash&logoColor=white) | [**API and Webhooks**](api-and-webhooks) | Uptime checks, alerts, dynamic DNS updaters, integration recipes |
 
-<details>
-<summary><b>Example recipes</b> (click to expand)</summary>
+---
+
+## Recipes
+
+<details open>
+<summary><b>All recipes</b> (click to collapse)</summary>
 
 <br>
 
-| File | Description |
-|---|---|
-| `advanced-search-operators.txt` | Cheat sheet of search commands for precise results |
-| `clean-video-sharing.md` | Strip tracking tokens from shared video links |
-| `feed-algorithm-resets.md` | Clear stale recommendations on major platforms |
-| `hidden-flags-config.txt` | Experimental browser settings to speed up page loads |
-| `disposable-email-routing.md` | Use aliases to protect your primary inbox |
-| `headless-scraper.js` | Extract clean text from messy web pages |
-| `rss-feed-generator.py` | Turn static pages into custom RSS feeds |
-| `devtools-console-tricks.md` | Console snippets for rapid UI debugging |
-| `network-throttling-profiles.json` | Simulate real-world mobile connections |
-| `status-check-webhook.sh` | Monitor endpoint uptime and trigger alerts |
-| `dynamic-dns-updater.py` | Keep a home server IP updated automatically |
+| Recipe | Category | Description |
+|---|---|---|
+| [`advanced-search-operators.txt`](browser-and-search/advanced-search-operators.txt) | Browser and Search | Cheat sheet of search commands for precise results |
+| [`hidden-flags-config.txt`](browser-and-search/hidden-flags-config.txt) | Browser and Search | Browser settings to speed up page loads and block autoplay |
+| [`disposable-email-routing.md`](privacy-and-accounts/disposable-email-routing.md) | Privacy and Accounts | Use aliases to protect your primary inbox |
+| [`remove-tracking-parameters.md`](privacy-and-accounts/remove-tracking-parameters.md) | Privacy and Accounts | Strip tracking junk from links |
+| [`clean-video-sharing.md`](social-and-content/clean-video-sharing.md) | Social and Content | Strip tracking tokens from shared video links |
+| [`feed-algorithm-resets.md`](social-and-content/feed-algorithm-resets.md) | Social and Content | Clear stale recommendations on major platforms |
+| [`price-comparison-tips.md`](everyday-savings/price-comparison-tips.md) | Everyday Savings | Find better flight and hotel prices |
+| [`headless-scraper.js`](automation/headless-scraper.js) | Automation and Scraping | Extract clean text from messy web pages |
+| [`rss-feed-generator.py`](automation/rss-feed-generator.py) | Automation and Scraping | Turn static pages into custom RSS feeds |
+| [`devtools-console-tricks.md`](devtools/devtools-console-tricks.md) | DevTools | Console snippets for rapid UI debugging |
+| [`network-throttling-profiles.json`](devtools/network-throttling-profiles.json) | DevTools | Simulate real-world mobile connections |
+| [`status-check-webhook.sh`](api-and-webhooks/status-check-webhook.sh) | API and Webhooks | Monitor endpoint uptime and trigger alerts |
+| [`dynamic-dns-updater.py`](api-and-webhooks/dynamic-dns-updater.py) | API and Webhooks | Keep a home server IP updated automatically |
 
 </details>
 
@@ -81,7 +88,7 @@ It is built for two audiences:
 
 ## Quick Start
 
-**For guides:** open any `.md` file in a category folder and follow the steps.
+**For guides:** open any `.md` file in a [category folder](#categories) and follow the steps.
 
 **For scripts:**
 
@@ -107,13 +114,27 @@ internet-tricks-cookbook/
 |-- assets/
 |   `-- logo.svg
 |-- browser-and-search/
+|   |-- advanced-search-operators.txt
+|   `-- hidden-flags-config.txt
 |-- privacy-and-accounts/
+|   |-- disposable-email-routing.md
+|   `-- remove-tracking-parameters.md
 |-- social-and-content/
+|   |-- clean-video-sharing.md
+|   `-- feed-algorithm-resets.md
 |-- everyday-savings/
+|   `-- price-comparison-tips.md
 |-- automation/
+|   |-- headless-scraper.js
+|   `-- rss-feed-generator.py
 |-- devtools/
+|   |-- devtools-console-tricks.md
+|   `-- network-throttling-profiles.json
 |-- api-and-webhooks/
+|   |-- dynamic-dns-updater.py
+|   `-- status-check-webhook.sh
 |-- LICENSE
+|-- RECIPE_TEMPLATE.md
 `-- README.md
 ```
 
@@ -151,11 +172,13 @@ flowchart LR
     D --> E[Review and merge]
 ```
 
-1. Fork the repository.
+1. [Fork the repository](https://github.com/rakibuilds/internet-tricks-cookbook/fork).
 2. Create a branch: `git checkout -b trick/your-trick-name`
-3. Add your file to the most relevant category folder.
-4. Write clear steps and include the header (purpose, requirements, usage).
-5. Open a Pull Request describing the problem your trick solves.
+3. Add your file to the most relevant [category folder](#categories).
+4. Copy [`RECIPE_TEMPLATE.md`](RECIPE_TEMPLATE.md) and follow its header (purpose, requirements, usage).
+5. [Open a Pull Request](https://github.com/rakibuilds/internet-tricks-cookbook/compare) describing the problem your trick solves.
+
+Found a broken or outdated recipe? [Open an issue](https://github.com/rakibuilds/internet-tricks-cookbook/issues/new).
 
 ---
 
