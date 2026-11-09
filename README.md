@@ -22,7 +22,6 @@
 [Categories](#categories) |
 [Recipes](#recipes) |
 [Quick Start](#quick-start) |
-[Structure](#repository-structure) |
 [Rules](#rules) |
 [Contributing](#contributing) |
 [License](#license)
@@ -107,38 +106,6 @@ Open a category folder and read the header of the file you want to run for its d
 
 ---
 
-## Repository Structure
-
-```text
-internet-tricks-cookbook/
-|-- assets/logo.svg
-|-- browser-and-search/
-|   |-- advanced-search-operators.txt
-|   `-- hidden-flags-config.txt
-|-- privacy-and-accounts/
-|   |-- disposable-email-routing.md
-|   `-- remove-tracking-parameters.md
-|-- social-and-content/
-|   |-- clean-video-sharing.md
-|   `-- feed-algorithm-resets.md
-|-- everyday-savings/
-|   `-- price-comparison-tips.md
-|-- automation/
-|   |-- headless-scraper.js
-|   `-- rss-feed-generator.py
-|-- devtools/
-|   |-- devtools-console-tricks.md
-|   `-- network-throttling-profiles.json
-|-- api-and-webhooks/
-|   |-- dynamic-dns-updater.py
-|   `-- status-check-webhook.sh
-|-- LICENSE
-|-- RECIPE_TEMPLATE.md
-`-- README.md
-```
-
----
-
 ## Rules
 
 > [!TIP]
@@ -161,7 +128,7 @@ Scripts that fetch web pages should respect `robots.txt`, rate limits, and site 
 
 ## Contributing
 
-Contributions are welcome. Tricks go stale as platforms change, so fixes and updates matter as much as new recipes.
+Contributions are welcome. Tricks go stale as platforms change, so fixes and updates matter as much as new recipes. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide, including the repository structure and recipe format.
 
 ```mermaid
 flowchart LR
