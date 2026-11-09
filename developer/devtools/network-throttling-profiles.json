@@ -1,0 +1,11 @@
+{
+  "_purpose": "Simulate real-world mobile network speeds in automated browser tests.",
+  "_comment": "Approximate profiles for Chrome DevTools Protocol Network.emulateNetworkConditions (Puppeteer, Playwright). Throughput is in bytes per second, latency in milliseconds. Values are rough real-world approximations.",
+  "profiles": {
+    "offline":  { "offline": true,  "downloadThroughput": 0,       "uploadThroughput": 0,      "latency": 0 },
+    "slow-3g":  { "offline": false, "downloadThroughput": 64000,   "uploadThroughput": 51200,  "latency": 400 },
+    "fast-3g":  { "offline": false, "downloadThroughput": 187500,  "uploadThroughput": 93750,  "latency": 150 },
+    "slow-4g":  { "offline": false, "downloadThroughput": 400000,  "uploadThroughput": 150000, "latency": 100 },
+    "4g":       { "offline": false, "downloadThroughput": 1125000, "uploadThroughput": 187500, "latency": 85 }
+  }
+}

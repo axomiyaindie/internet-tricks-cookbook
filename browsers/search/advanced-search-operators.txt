@@ -1,0 +1,36 @@
+ADVANCED SEARCH OPERATORS
+Purpose:      Get precise results from Google-style search engines.
+Requirements: None. Works in most major search engines (Bing and DuckDuckGo
+              support most of these; behavior can differ slightly).
+
+EXACT AND EXCLUDE
+"exact phrase"            Match the words in this exact order
+-word                     Exclude results containing this word
+word1 OR word2            Match either term
+*                         Wildcard: "best * for beginners"
+
+LIMIT TO A SITE OR TYPE
+site:example.com          Search only one website
+site:.edu                 Search only one domain type
+filetype:pdf              Only PDF files (also docx, xlsx, pptx, csv, txt)
+intitle:keyword           Keyword must appear in the page title
+inurl:keyword             Keyword must appear in the URL
+intext:keyword            Keyword must appear in the page body
+
+RANGES AND DATES
+100..500                  Numbers in a range: "laptop $100..$500"
+after:2025-01-01          Results published after a date
+before:2026-01-01         Results published before a date
+AROUND(5)                 Two terms within 5 words: "solar AROUND(5) subsidy"
+
+QUICK ANSWERS
+define:word               Dictionary definition
+10 km to miles            Unit conversion card
+
+COMBINED EXAMPLES
+site:gov.in filetype:pdf "annual report" after:2024-01-01
+intitle:"index of" "lecture notes" -site:pinterest.com
+"how to" "raspberry pi" site:reddit.com OR site:stackoverflow.com
+
+TIP
+Use Tools > Any time on the results page to filter by date without operators.

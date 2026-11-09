@@ -4,64 +4,121 @@ Thanks for helping keep this cookbook useful. Tricks go stale as platforms chang
 
 ## Repository Structure
 
+This tree is generated automatically by `scripts/build_index.py`.
+
+<!-- TREE:START -->
 ```text
 internet-tricks-cookbook/
-|-- assets/
-|   `-- logo.svg
-|-- browser-and-search/
-|   |-- advanced-search-operators.txt
-|   `-- hidden-flags-config.txt
-|-- privacy-and-accounts/
+|-- browsers/
+|   |-- chrome/
+|   |   |-- custom-search-shortcuts.md
+|   |   `-- keyboard-shortcuts.md
+|   |-- firefox/
+|   |   |-- about-pages.md
+|   |   `-- containers-and-reader-view.md
+|   |-- general/
+|   |   `-- hidden-flags-config.txt
+|   |-- search/
+|   |   |-- advanced-search-operators.txt
+|   |   `-- quick-answers.md
+|   `-- README.md
+|-- developer/
+|   |-- api-and-webhooks/
+|   |   |-- curl-cheatsheet.md
+|   |   |-- dynamic-dns-updater.py
+|   |   `-- status-check-webhook.sh
+|   |-- automation/
+|   |   |-- headless-scraper.js
+|   |   `-- rss-feed-generator.py
+|   |-- devtools/
+|   |   |-- devtools-console-tricks.md
+|   |   |-- network-throttling-profiles.json
+|   |   `-- shortcuts-and-commands.md
+|   |-- git-and-github/
+|   |   |-- fork-and-sync-upstream.md
+|   |   |-- git-undo-cheatsheet.md
+|   |   `-- github-shortcuts.md
+|   `-- README.md
+|-- everyday/
+|   |-- google-maps-offline.md
+|   |-- price-comparison-tips.md
+|   |-- README.md
+|   `-- windows-shortcuts.md
+|-- privacy-and-security/
+|   |-- check-data-breaches.md
 |   |-- disposable-email-routing.md
-|   `-- remove-tracking-parameters.md
-|-- social-and-content/
-|   |-- clean-video-sharing.md
-|   `-- feed-algorithm-resets.md
-|-- everyday-savings/
-|   `-- price-comparison-tips.md
-|-- automation/
-|   |-- headless-scraper.js
-|   `-- rss-feed-generator.py
-|-- devtools/
-|   |-- devtools-console-tricks.md
-|   `-- network-throttling-profiles.json
-|-- api-and-webhooks/
-|   |-- dynamic-dns-updater.py
-|   `-- status-check-webhook.sh
+|   |-- README.md
+|   |-- remove-tracking-parameters.md
+|   |-- review-app-permissions.md
+|   |-- spot-phishing-links.md
+|   |-- strong-passwords-and-passkeys.md
+|   `-- two-factor-authentication.md
+|-- scripts/
+|   `-- build_index.py
+|-- social-media/
+|   |-- facebook/
+|   |   |-- feed-controls.md
+|   |   `-- privacy-checkup.md
+|   |-- general/
+|   |   |-- clean-video-sharing.md
+|   |   |-- download-your-data.md
+|   |   `-- feed-algorithm-resets.md
+|   |-- instagram/
+|   |   |-- control-your-feed.md
+|   |   `-- privacy-and-safety-settings.md
+|   |-- linkedin/
+|   |   `-- search-and-privacy.md
+|   |-- reddit/
+|   |   `-- search-and-feeds.md
+|   |-- tiktok/
+|   |   `-- content-controls.md
+|   |-- whatsapp/
+|   |   |-- handy-features.md
+|   |   |-- privacy-settings.md
+|   |   `-- text-formatting.md
+|   |-- x-twitter/
+|   |   |-- mute-and-filter.md
+|   |   `-- search-operators.md
+|   |-- youtube/
+|   |   |-- keyboard-shortcuts.md
+|   |   `-- playback-controls.md
+|   `-- README.md
 |-- CONTRIBUTING.md
-|-- LICENSE
-|-- RECIPE_TEMPLATE.md
-`-- README.md
+|-- README.md
+`-- RECIPE_TEMPLATE.md
 ```
+<!-- TREE:END -->
 
-| Folder | What goes here |
+## Where Does a Trick Go?
+
+| Your trick is about | Put it in |
 |---|---|
-| `browser-and-search` | Search operators, browser settings and flags |
-| `privacy-and-accounts` | Email aliasing, tracking removal, privacy settings |
-| `social-and-content` | Link sharing, feed resets, notification controls |
-| `everyday-savings` | Price comparison and savings methods |
-| `automation` | Scraping and automation scripts |
-| `devtools` | Console snippets, throttling profiles, debugging tips |
-| `api-and-webhooks` | Uptime checks, alerts, API integrations |
+| A social platform (YouTube, Instagram, WhatsApp, and so on) | `social-media/<platform>/` |
+| A tip that applies to several platforms | `social-media/general/` |
+| A web browser or web search | `browsers/<browser or search>/` |
+| Passwords, accounts, scams, tracking | `privacy-and-security/` |
+| Code, DevTools, scripts, APIs, Git | `developer/<topic>/` |
+| Anything else useful in daily life | `everyday/` |
 
-## Adding a Recipe
+A new platform or topic only needs a new folder. Create it, add your recipe, and run the index script. A brand new top-level section also works. It shows up automatically, and you can give it a nicer title and badge in the `SECTIONS` list at the top of `scripts/build_index.py`.
+
+## Adding a Trick
 
 1. [Fork the repository](https://github.com/rakibuilds/internet-tricks-cookbook/fork) and clone your fork.
 2. Create a branch: `git checkout -b trick/your-trick-name`
-3. Add your file to the most relevant category folder.
-4. Start from [`RECIPE_TEMPLATE.md`](RECIPE_TEMPLATE.md) for guides.
-5. Add your recipe to the Recipes table in [`README.md`](README.md).
-6. Commit, push, and [open a Pull Request](https://github.com/rakibuilds/internet-tricks-cookbook/compare) describing the problem your trick solves.
+3. Copy [`RECIPE_TEMPLATE.md`](RECIPE_TEMPLATE.md) into the right folder and fill it in.
+4. Run `python scripts/build_index.py` to update the README and section indexes.
+5. Commit, push, and [open a Pull Request](https://github.com/rakibuilds/internet-tricks-cookbook/compare) describing the problem your trick solves.
 
 ## Recipe Format
 
-Every recipe starts with a short header:
+Every recipe starts with a short header. The `Purpose` line is required because it becomes the description in the indexes.
 
 - **Purpose:** one sentence on the problem it solves.
 - **Requirements:** browser, tool, or account needed (or "None").
-- **Usage or steps:** clear instructions anyone can follow.
+- **Steps or usage:** clear instructions anyone can follow.
 
-Guides use Markdown (`.md`) or plain text (`.txt`). Scripts use their native extension (`.js`, `.py`, `.sh`) with the header written as a comment at the top. Use lowercase file names with hyphens, such as `my-new-trick.md`.
+Guides use Markdown (`.md`) or plain text (`.txt`). Scripts use their native extension (`.js`, `.py`, `.sh`) with the header written as a comment at the top. JSON files use a `"_purpose"` key. Use lowercase file names with hyphens, such as `my-new-trick.md`.
 
 ## Rules
 
