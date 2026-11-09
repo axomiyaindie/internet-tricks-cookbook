@@ -75,6 +75,7 @@ internet-tricks-cookbook/
 |-- privacy-and-security/
 |   |-- check-data-breaches.md
 |   |-- disposable-email-routing.md
+|   |-- photo-video-metadata.md
 |   |-- README.md
 |   |-- remove-tracking-parameters.md
 |   |-- review-app-permissions.md

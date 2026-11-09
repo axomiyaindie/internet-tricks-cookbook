@@ -51,7 +51,7 @@ It is built for two audiences:
 |:-:|---|---|:-:|
 | ![](https://img.shields.io/badge/-%20-ef4444?style=flat-square&logo=youtube&logoColor=white) | [**Social Media**](social-media) | Platform-by-platform tips for YouTube, Instagram, Facebook, X, TikTok, WhatsApp, Reddit, and LinkedIn | 17 |
 | ![](https://img.shields.io/badge/-%20-2563eb?style=flat-square&logo=googlechrome&logoColor=white) | [**Browsers and Search**](browsers) | Shortcuts, settings, and search tricks for Chrome, Firefox, and web search | 7 |
-| ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | [**Privacy and Security**](privacy-and-security) | Accounts, passwords, email aliases, tracking removal, and scam spotting | 7 |
+| ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | [**Privacy and Security**](privacy-and-security) | Accounts, passwords, email aliases, tracking removal, and scam spotting | 8 |
 | ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=github&logoColor=white) | [**Developer**](developer) | DevTools, automation scripts, API and webhook recipes, Git and GitHub | 11 |
 | ![](https://img.shields.io/badge/-%20-22c55e?style=flat-square&logo=googlemaps&logoColor=white) | [**Everyday**](everyday) | Windows shortcuts, maps, and savings tips | 3 |
 | ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**API and Webhooks**](api-and-webhooks) |  | 2 |
@@ -178,7 +178,7 @@ Open a section for its full index, or expand a section below.
 </details>
 
 <details>
-<summary><b>Privacy and Security</b> (7 recipes)</summary>
+<summary><b>Privacy and Security</b> (8 recipes)</summary>
 
 <br>
 
@@ -190,6 +190,7 @@ Open a section for its full index, or expand a section below.
 |---|---|
 | [Check for Data Breaches](privacy-and-security/check-data-breaches.md) | Find out whether your email or passwords appeared in a known leak. |
 | [Email Aliasing](privacy-and-security/disposable-email-routing.md) | Sign up for services without exposing your main inbox, and trace who leaks or sells your address. |
+| [Photo and Video Metadata Removal](privacy-and-security/photo-video-metadata.md) | Detect hidden EXIF geolocation metrics and technical tracking tags embedded in media files, and strip them completely before publishing photos or videos online. |
 | [Remove Tracking Parameters From Links](privacy-and-security/remove-tracking-parameters.md) | Strip tracking junk from URLs before sharing or bookmarking. |
 | [Review App and Account Permissions](privacy-and-security/review-app-permissions.md) | Remove old apps and sites that can still access your accounts. |
 | [Spot Phishing Links and Messages](privacy-and-security/spot-phishing-links.md) | Recognize scam emails and texts before you click. |

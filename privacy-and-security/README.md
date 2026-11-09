@@ -10,6 +10,7 @@ Accounts, passwords, email aliases, tracking removal, and scam spotting.
 |---|---|
 | [Check for Data Breaches](check-data-breaches.md) | Find out whether your email or passwords appeared in a known leak. |
 | [Email Aliasing](disposable-email-routing.md) | Sign up for services without exposing your main inbox, and trace who leaks or sells your address. |
+| [Photo and Video Metadata Removal](photo-video-metadata.md) | Detect hidden EXIF geolocation metrics and technical tracking tags embedded in media files, and strip them completely before publishing photos or videos online. |
 | [Remove Tracking Parameters From Links](remove-tracking-parameters.md) | Strip tracking junk from URLs before sharing or bookmarking. |
 | [Review App and Account Permissions](review-app-permissions.md) | Remove old apps and sites that can still access your accounts. |
 | [Spot Phishing Links and Messages](spot-phishing-links.md) | Recognize scam emails and texts before you click. |
