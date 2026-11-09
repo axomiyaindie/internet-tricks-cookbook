@@ -29,6 +29,7 @@ Shortcuts, settings, and search tricks for Chrome, Firefox, and web search.
 | Recipe | Description |
 |---|---|
 | [Advanced Search Operators](search/advanced-search-operators.txt) | Get precise results from Google-style search engines. |
+| [Bypass AI and Spam Content Filters](search/hidden-google-filters.md) | Force Google search engines to completely strip out AI-generated content blocks, sponsored shopping links, and spam blogs to return purely raw human discussions. |
 | [Search Engine Quick Answers](search/quick-answers.md) | Get instant answers by typing a simple phrase into search. |
 
 ---

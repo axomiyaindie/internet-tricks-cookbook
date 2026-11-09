@@ -37,6 +37,7 @@ internet-tricks-cookbook/
 |   |   `-- hidden-flags-config.txt
 |   |-- search/
 |   |   |-- advanced-search-operators.txt
+|   |   |-- hidden-google-filters.md
 |   |   `-- quick-answers.md
 |   `-- README.md
 |-- developer/

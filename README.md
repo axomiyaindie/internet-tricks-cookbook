@@ -50,7 +50,7 @@ It is built for two audiences:
 | | Section | What it covers | Recipes |
 |:-:|---|---|:-:|
 | ![](https://img.shields.io/badge/-%20-ef4444?style=flat-square&logo=youtube&logoColor=white) | [**Social Media**](social-media) | Platform-by-platform tips for YouTube, Instagram, Facebook, X, TikTok, WhatsApp, Reddit, and LinkedIn | 17 |
-| ![](https://img.shields.io/badge/-%20-2563eb?style=flat-square&logo=googlechrome&logoColor=white) | [**Browsers and Search**](browsers) | Shortcuts, settings, and search tricks for Chrome, Firefox, and web search | 7 |
+| ![](https://img.shields.io/badge/-%20-2563eb?style=flat-square&logo=googlechrome&logoColor=white) | [**Browsers and Search**](browsers) | Shortcuts, settings, and search tricks for Chrome, Firefox, and web search | 8 |
 | ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | [**Privacy and Security**](privacy-and-security) | Accounts, passwords, email aliases, tracking removal, and scam spotting | 8 |
 | ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=github&logoColor=white) | [**Developer**](developer) | DevTools, automation scripts, API and webhook recipes, Git and GitHub | 11 |
 | ![](https://img.shields.io/badge/-%20-22c55e?style=flat-square&logo=googlemaps&logoColor=white) | [**Everyday**](everyday) | Windows shortcuts, maps, and savings tips | 3 |
@@ -142,7 +142,7 @@ Open a section for its full index, or expand a section below.
 </details>
 
 <details>
-<summary><b>Browsers and Search</b> (7 recipes)</summary>
+<summary><b>Browsers and Search</b> (8 recipes)</summary>
 
 <br>
 
@@ -173,6 +173,7 @@ Open a section for its full index, or expand a section below.
 | Recipe | Description |
 |---|---|
 | [Advanced Search Operators](browsers/search/advanced-search-operators.txt) | Get precise results from Google-style search engines. |
+| [Bypass AI and Spam Content Filters](browsers/search/hidden-google-filters.md) | Force Google search engines to completely strip out AI-generated content blocks, sponsored shopping links, and spam blogs to return purely raw human discussions. |
 | [Search Engine Quick Answers](browsers/search/quick-answers.md) | Get instant answers by typing a simple phrase into search. |
 
 </details>
