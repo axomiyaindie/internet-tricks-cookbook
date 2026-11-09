@@ -1,0 +1,22 @@
+HIDDEN BROWSER SETTINGS
+Purpose:      Speed up browsing and stop autoplay with built-in settings.
+Requirements: Chrome, Edge, or Firefox (recent version).
+Warning:      Flags are experimental. They can change or vanish between
+              versions. Note what you changed so you can reverse it.
+
+CHROME / EDGE  (type the address in the URL bar; Edge uses edge://)
+chrome://flags/#enable-parallel-downloading   Split downloads into parts
+chrome://flags/#back-forward-cache            Instant back/forward navigation
+chrome://settings/performance                 Turn on Memory Saver (sleeps
+                                              inactive tabs to free RAM)
+chrome://settings/content/sound               Mute specific noisy sites
+Relaunch the browser after changing a flag.
+
+FIREFOX  (type about:config, accept the warning, search the name)
+media.autoplay.default = 5                    Block all autoplay (audio+video)
+                                              0 = allow, 1 = block audible only
+Also see: Settings > Privacy & Security > Permissions > Autoplay.
+
+RESET
+Chrome:  chrome://flags > "Reset all"
+Firefox: about:config > right-click a changed row > Reset
