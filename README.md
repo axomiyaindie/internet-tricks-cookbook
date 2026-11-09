@@ -315,7 +315,7 @@ Open a section for its full index, or expand a section below.
 | Recipe | Description |
 |---|---|
 | [DevTools Console Tricks](devtools/devtools-console-tricks.md) | Console shortcuts for faster debugging and testing. |
-| [Network Throttling Profiles](devtools/network-throttling-profiles.json) |  |
+| [Network Throttling Profiles](devtools/network-throttling-profiles.json) | Network simulation presets to test low-bandwidth connections and edge speeds in browser tests. |
 
 </details>
 
