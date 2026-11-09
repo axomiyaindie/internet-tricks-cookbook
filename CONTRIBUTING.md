@@ -9,6 +9,20 @@ This tree is generated automatically by `scripts/build_index.py`.
 <!-- TREE:START -->
 ```text
 internet-tricks-cookbook/
+|-- api-and-webhooks/
+|   |-- dynamic-dns-updater.py
+|   |-- README.md
+|   `-- status-check-webhook.sh
+|-- assets/
+|   `-- logo.svg
+|-- automation/
+|   |-- headless-scraper.js
+|   |-- README.md
+|   `-- rss-feed-generator.py
+|-- browser-and-search/
+|   |-- advanced-search-operators.txt
+|   |-- hidden-flags-config.txt
+|   `-- README.md
 |-- browsers/
 |   |-- chrome/
 |   |   |-- custom-search-shortcuts.md
@@ -39,11 +53,22 @@ internet-tricks-cookbook/
 |   |   |-- git-undo-cheatsheet.md
 |   |   `-- github-shortcuts.md
 |   `-- README.md
+|-- devtools/
+|   |-- devtools-console-tricks.md
+|   |-- network-throttling-profiles.json
+|   `-- README.md
 |-- everyday/
 |   |-- google-maps-offline.md
 |   |-- price-comparison-tips.md
 |   |-- README.md
 |   `-- windows-shortcuts.md
+|-- everyday-savings/
+|   |-- price-comparison-tips.md
+|   `-- README.md
+|-- privacy-and-accounts/
+|   |-- disposable-email-routing.md
+|   |-- README.md
+|   `-- remove-tracking-parameters.md
 |-- privacy-and-security/
 |   |-- check-data-breaches.md
 |   |-- disposable-email-routing.md
@@ -55,6 +80,10 @@ internet-tricks-cookbook/
 |   `-- two-factor-authentication.md
 |-- scripts/
 |   `-- build_index.py
+|-- social-and-content/
+|   |-- clean-video-sharing.md
+|   |-- feed-algorithm-resets.md
+|   `-- README.md
 |-- social-media/
 |   |-- facebook/
 |   |   |-- feed-controls.md
@@ -84,6 +113,7 @@ internet-tricks-cookbook/
 |   |   `-- playback-controls.md
 |   `-- README.md
 |-- CONTRIBUTING.md
+|-- LICENSE
 |-- README.md
 `-- RECIPE_TEMPLATE.md
 ```

@@ -54,6 +54,13 @@ It is built for two audiences:
 | ![](https://img.shields.io/badge/-%20-7c3aed?style=flat-square&logo=protonmail&logoColor=white) | [**Privacy and Security**](privacy-and-security) | Accounts, passwords, email aliases, tracking removal, and scam spotting | 7 |
 | ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=github&logoColor=white) | [**Developer**](developer) | DevTools, automation scripts, API and webhook recipes, Git and GitHub | 11 |
 | ![](https://img.shields.io/badge/-%20-22c55e?style=flat-square&logo=googlemaps&logoColor=white) | [**Everyday**](everyday) | Windows shortcuts, maps, and savings tips | 3 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**API and Webhooks**](api-and-webhooks) |  | 2 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**Automation and Scraping**](automation) |  | 2 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**Browser And Search**](browser-and-search) |  | 2 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**DevTools**](devtools) |  | 2 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**Everyday Savings**](everyday-savings) |  | 1 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**Privacy And Accounts**](privacy-and-accounts) |  | 2 |
+| ![](https://img.shields.io/badge/-%20-64748b?style=flat-square&logo=readme&logoColor=white) | [**Social And Content**](social-and-content) |  | 2 |
 <!-- CATEGORIES:END -->
 
 ---
@@ -245,6 +252,117 @@ Open a section for its full index, or expand a section below.
 | [Google Maps: Offline Maps and Location Sharing](everyday/google-maps-offline.md) | Use maps without internet and share your location safely. |
 | [Price Comparison Tips for Flights and Hotels](everyday/price-comparison-tips.md) | Find better prices with legitimate methods. |
 | [Windows Shortcuts](everyday/windows-shortcuts.md) | Use Windows shortcuts that save time every day. |
+
+</details>
+
+<details>
+<summary><b>API and Webhooks</b> (2 recipes)</summary>
+
+<br>
+
+[Open the API and Webhooks index](api-and-webhooks/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Dynamic Dns Updater](api-and-webhooks/dynamic-dns-updater.py) | Keep a DNS A record pointed at your home server's public IP. |
+| [Status Check Webhook](api-and-webhooks/status-check-webhook.sh) | Check that a URL responds, and post an alert to a webhook if not. |
+
+</details>
+
+<details>
+<summary><b>Automation and Scraping</b> (2 recipes)</summary>
+
+<br>
+
+[Open the Automation and Scraping index](automation/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Headless Scraper](automation/headless-scraper.js) | Extract clean readable text from a web page, including |
+| [Rss Feed Generator](automation/rss-feed-generator.py) | Turn the links on a web page into an RSS feed. |
+
+</details>
+
+<details>
+<summary><b>Browser And Search</b> (2 recipes)</summary>
+
+<br>
+
+[Open the Browser And Search index](browser-and-search/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Advanced Search Operators](browser-and-search/advanced-search-operators.txt) | Get precise results from Google-style search engines. |
+| [Hidden Flags Config](browser-and-search/hidden-flags-config.txt) | Speed up browsing and stop autoplay with built-in settings. |
+
+</details>
+
+<details>
+<summary><b>DevTools</b> (2 recipes)</summary>
+
+<br>
+
+[Open the DevTools index](devtools/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [DevTools Console Tricks](devtools/devtools-console-tricks.md) | Console shortcuts for faster debugging and testing. |
+| [Network Throttling Profiles](devtools/network-throttling-profiles.json) |  |
+
+</details>
+
+<details>
+<summary><b>Everyday Savings</b> (1 recipes)</summary>
+
+<br>
+
+[Open the Everyday Savings index](everyday-savings/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Price Comparison Tips for Flights and Hotels](everyday-savings/price-comparison-tips.md) | Find better prices with legitimate methods. |
+
+</details>
+
+<details>
+<summary><b>Privacy And Accounts</b> (2 recipes)</summary>
+
+<br>
+
+[Open the Privacy And Accounts index](privacy-and-accounts/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Email Aliasing](privacy-and-accounts/disposable-email-routing.md) | Sign up for services without exposing your main inbox, and trace who leaks or sells your address. |
+| [Remove Tracking Parameters From Links](privacy-and-accounts/remove-tracking-parameters.md) | Strip tracking junk from URLs before sharing or bookmarking. |
+
+</details>
+
+<details>
+<summary><b>Social And Content</b> (2 recipes)</summary>
+
+<br>
+
+[Open the Social And Content index](social-and-content/README.md)
+
+**General**
+
+| Recipe | Description |
+|---|---|
+| [Clean Video Sharing](social-and-content/clean-video-sharing.md) | Share video links without tracking tokens or an unwanted start time. |
+| [Reset Recommendation Feeds](social-and-content/feed-algorithm-resets.md) | Clear stale or unwanted recommendations on major platforms. |
 
 </details>
 <!-- RECIPES:END -->
